@@ -7,8 +7,11 @@ fn main() {
     // i8, i16, i32, i64, i128 -> Con signo - +
     // u8, u16, u32, u64, u128 -> Con signo +
 
+    /* 
     let numero_uno: i8 = -10;
     let numero_dos: u8 = 10;
+
+    */
 
     // Char -> UTF-8 x default
     let caracter = '🦀';
