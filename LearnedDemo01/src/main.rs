@@ -44,4 +44,24 @@ fn menu(user_name: &str) {
     };
 
     println!("You have selected {}", option);
+
+    if option == 2 {
+        let tuple = tuples();
+        println!("{:?}", tuple);
+        
+        // learned just now how to destructure a tuple in rust
+
+        let (a,b,c,d,e) = tuple;
+
+        println!("{}-{}-{}-{}-{}", a,b,c,d,e);
+    }
+
+
+}
+
+
+fn tuples() -> (bool, bool, i8, i32, f64){
+    let tupla = (true, false, 1, 999, 1.5);
+
+    tupla
 }
