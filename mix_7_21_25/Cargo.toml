@@ -1,0 +1,6 @@
+[package]
+name = "mix_7_21_25"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
