@@ -12,6 +12,16 @@
 // the quantity bought.
 // fn calculate_price_of_apples(???) -> ??? { ??? }
 
+fn calculate_price_of_apples(num: i32) -> i32 {
+    if num < 40 {
+        num * 2
+    } else if num >= 40 {
+        num * 1
+    } else {
+        0 // This would handle NaN cases if num were floating-point
+    }
+}
+
 fn main() {
     // You can optionally experiment here.
 }

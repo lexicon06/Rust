@@ -4,10 +4,22 @@ fn bigger(a: i32, b: i32) -> i32 {
     // Do not use:
     // - another function call
     // - additional variables
+    if a > b {
+        a
+    }else if b > a{
+        b
+    }else{
+        a
+    }
 }
 
 fn main() {
     // You can optionally experiment here.
+    let exp_1 = bigger(1,2);
+    let exp_2 = bigger(50, 100);
+    let exp_3 = bigger(100, 20);
+
+    println!("{0}, {1}, {2}", exp_1, exp_2, exp_3);
 }
 
 // Don't mind this for now :)
